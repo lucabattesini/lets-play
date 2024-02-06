@@ -1,0 +1,35 @@
+body {
+    background-color: #1f192f;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 0;
+}
+
+#screen button {
+    background-color: #65b8a6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border: none;
+}
+
+#screen {
+    background-color: #2d6073;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: row;
+}

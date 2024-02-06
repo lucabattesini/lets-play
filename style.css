@@ -1,5 +1,8 @@
 body {
-    background-color: #1f192f;
+    background-image: url("https://static.gosugamers.net/a6/80/09/a0b3b6a57d15c2db467a31ed12e0c16f30c1c111f7321a0a5000965ae7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
@@ -9,8 +12,9 @@ body {
 }
 
 #screen button {
-    background-color: #65b8a6;
+    background-color: #22252e;
     border-radius: 10px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,12 +22,16 @@ body {
     width: 90px;
     height: 40px;
     border: none;
-    margin: 10px;
+    margin: 20px;
+    margin-top: 70px;
 }
 
 #screen {
-    background-color: #2d6073;
+    background-color: rgba(58, 65, 92, 0.7);
     border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,4 +41,12 @@ body {
 #botoes {
     display: flex;
     flex-direction: row;
+}
+
+#botoes button {
+    font-size: 30px;
+}
+
+#pergunta {
+    font-size: 25px;
 }

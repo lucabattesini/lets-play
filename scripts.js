@@ -1,4 +1,5 @@
 const botao = document.getElementById("nao-aceita")
+const aceitou = document.getElementById("aceita")
 
 document.getElementById('nao-aceitou-botao').addEventListener('mouseover', () => {
     const randomX = Math.random() * (window.innerWidth - botao.offsetWidth);
@@ -7,3 +8,7 @@ document.getElementById('nao-aceitou-botao').addEventListener('mouseover', () =>
     botao.style.left = randomX + 'px';
     botao.style.top = randomY + 'px';
   });
+
+aceitou.addEventListener("click", () => {
+    console.log("Obrigado por aceitar")
+})

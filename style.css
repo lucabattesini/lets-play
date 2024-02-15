@@ -59,3 +59,7 @@ body {
 #nao-aceita button{
     color: rgb(247, 93, 66);
 }
+
+#nao-aceita {
+    position: absolute;
+}
